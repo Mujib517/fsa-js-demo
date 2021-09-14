@@ -27,12 +27,61 @@
 // operators : Arithmatic operator (+,-,*,/,%, ++, --)
 // age = age + 1; // ++age; age++;
 // x+2y = 1
-var x = 10;
-var y = 2;
-var res = x%2;
+// +, -
+// 2*4 => 2+2+2+2
+// 4/2 => 4-2-2
+// var x = 10;
+// var y = 2;
+// var res = x%2;
+// console.log(res);
+// object, scalar 
+x = 10;
+var o = {};
+var marks = [60, 60, 70, 89, 90, 100]; // lists
+var subjects = ["m1", "Maths2", "Physics"];
 
+// accessing: marks[0]
+// marks[0] = 100;
+// marks.push(20);
+// marks.pop();
+// marks.splice(2, 1);
 
-console.log(res);
+// marks.shift();
+// marks.unshift(10);
+// console.log(marks.join(' '));
+// var newArray = marks.slice(0, 3);
+// console.log(marks);
+// console.log(newArray);
+// loops: repeatedly
+// Ctrl+c - kill
+// var i = 1;
+// for (; i <= 10; i++) {
+//     console.log(i);
+// }
+
+// for (var i = 1; i <= 5; i = i + 2) {
+//     console.log(i);
+// }
+
+// init var i = 1; once
+// check condition; xX
+// body; xx
+// increments
+// while
+// for (var i = 1; i <= 10; i++) {
+//     for (var j = 1; j <= 10; j++) {
+//         console.log(i + j);
+//     }
+// }
+// 1+2+3+4+5
+var n = 4;
+
+var sum = 0;
+for (var i = 1; i <= n; i++) {
+    sum = sum + i;
+}
+
+console.log(sum);
 
 
 
