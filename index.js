@@ -74,14 +74,59 @@ var subjects = ["m1", "Maths2", "Physics"];
 //     }
 // }
 // 1+2+3+4+5
-var n = 4;
+// var n = 4;
 
-var sum = 0;
-for (var i = 1; i <= n; i++) {
-    sum = sum + i;
-}
+// var sum = 0;
+// for (var i = 1; i <= n; i++) {
+//     sum = sum + i;
+// }
 
-console.log(sum);
+// console.log(sum);
+
+// var arr = [1, 2, 3, 4, 5, 6]
+
+// console.log(arr.length);
+// arr.splice()
+// var res = arr.slice(0) // [1,2,3]
+// console.log(arr, res);
+// conditional operators <,>, <=, >=, ==, ===, !==
+// logical operator &&, ||, !
+// bitwise
+// = assignment
+// == equality
+// truthy: true and falsy: false
+// falsy: 0, "", false, NaN, null, undefined
+// everything is a value
+// conditional statements, if else, switch
+// var x = 10;
+// var y = "abc";
+// var o = {};
+// var ar=[1,2,3];
+// var active = false;
+
+// console.log(!active);
+
+// if (marks >= 40 || marks <= 100) {
+//     console.log("Passed");
+// }
+// else {
+//     console.log("Failed");
+// }
+// falsy: 0, "", false, NaN, null, undefined
+// if else if ladder
+
+// write a prg to provide grades for a candidate
+// 450, 6subjects
+// percentage
+// >=70 Distinction
+// >=60 && <69  First class
+// >=50 && <59  Second class
+// >=40 && <49  Thrid class
+// <40 : failed
+
+
+
+
 
 
 
