@@ -11,11 +11,11 @@ var totalMarks = 600;
 
 var percentage = (marks / totalMarks) * 100;
 
-// if (percentage >= 70) console.log("Distinction");
-// else if (percentage >= 60 && percentage < 70) console.log("First class")
-// else if (percentage >= 50 && percentage < 60) console.log("Second class");
-// else if (percentage >= 40 && percentage < 50) console.log("Third class");
-// else console.log("Failed");
+if (percentage >= 70) console.log("Distinction");
+else if (percentage >= 60 && percentage < 70) console.log("First class")
+else if (percentage >= 50 && percentage < 60) console.log("Second class");
+else if (percentage >= 40 && percentage < 50) console.log("Third class");
+else console.log("Failed");
 
 // if (percentage >= 70) console.log("Distinction");
 // else if (percentage >= 60) console.log("First class")
