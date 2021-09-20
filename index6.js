@@ -16,5 +16,5 @@ function parseNumber(n) {
     return value;
 }
 
-var res = parseNumber('1234')
+var res = parseNumber('1234.10')
 console.log(res, typeof res);
