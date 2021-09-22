@@ -69,7 +69,6 @@ var employee = {
 // console.log(JSON.stringify(employee)); // JSON
 // employee.applyLeave(20);
 
-
 for (var i = 0; i < employee.contact.length; i++) {
     if (employee.contact[i].active === "Secondary") {
         console.log(employee.contact[i])
